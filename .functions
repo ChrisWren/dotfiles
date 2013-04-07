@@ -1,3 +1,14 @@
+# Create a new directory and enter it
+function gi() {
+	npm install --save-dev grunt-"$@"
+}
+
+# Create a new directory and enter it
+function gci() {
+	npm install --save-dev grunt-contrib-"$@"
+}
+
+
 # Simple calculator
 function calc() {
 	local result=""
@@ -17,7 +28,7 @@ function calc() {
 }
 
 # Create a new directory and enter it
-function mkd() {
+function md() {
 	mkdir -p "$@" && cd "$@"
 }
 
