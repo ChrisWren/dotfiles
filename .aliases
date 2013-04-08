@@ -19,6 +19,7 @@ alias ve="vim ~/Projects/dotfiles/.vimrc"
 alias vb="cd ~/Projects/dotfiles/.vim/bundle"
 alias o="open"
 alias oo="open ."
+alias sp="cd ~/Library/Application\ Support/Sublime\ Text\ 2/Packages"
 
 #hub
 alias git=hub
