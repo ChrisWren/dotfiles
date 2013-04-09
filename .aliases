@@ -3,6 +3,8 @@ alias ..="cd .."
 alias ...="cd ../.."
 alias ....="cd ../../.."
 alias .....="cd ../../../.."
+alias super="supervisor main.js"
+alias o="open ."
 
 # Shortcuts
 alias ds="source ~/Documents/github/dotfiles/bootstrap.sh -f"
